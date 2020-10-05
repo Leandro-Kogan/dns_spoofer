@@ -1,1 +1,11 @@
-DNS_SPOOFER
+DNS_SPOOFER:
+For this script to work properly you need to be the man in the middle, this means between the victims machine and the access point. You do that by spoofing the arp protocol 
+that says to the victim machine that you are the access point and says to the access point that you are the victim machine.
+This script does not work with HTTPS that uses SSL or HSTS, but for SSL there are tools that can help you by-pass it...
+***********************************************************************************************************************************************************************************
+Disclaimer: This tool was made for educational purpose only, i made it for learning myself and sharing knowledge, the use of this tool without permision of the owner of the machine, 
+system, etc. in which this script is going to be used is illegal (as far as i know)...
+***********************************************************************************************************************************************************************************
+For script functionality see my comments in the code
+
+
